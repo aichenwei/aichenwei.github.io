@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>尘埃的精华 - 个人博客</title>
+  <link href="assets/css/main.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="header">
+    <div class="logo">
+      <a href="#home">
+        <img src="assets/images/pumo-logo.png" alt="Logo" /></a>
+    </div>
+    <h1 class="title">探索技术的无限可能，享受生活的点滴精彩</h1>
+  </div>
+
+  <div class="nav">
+    <a href="#articles" onclick="showCategory('articles')">技术</a>
+    <a href="#essays" onclick="showCategory('essays')">随笔</a>
+    <a href="about/about.html">关于</a>
+    <div class="social-links">
+      <a href="https://github.com/chenpumo" target="_blank"><img src="assets/images/github.png" alt="GitHub" /></a>
+      <a href="https://www.bilibili.com" target="_blank"><img src="assets/images/bilibili.jpeg" alt="Bilibili" /></a>
+    </div>
+  </div>
+
+  <div id="articles" class="category">
+    <div class="post">
+      <div class="post-left">
+        <h2>
+          <a href="posts/articles/2024-06-06_LLM_Essentials03.html">大模型技术精要（四）：大语言模型预训练</a>
+        </h2>
+        <p>
+          本文详细讲解大模型预训练的基本过程，通过代码完成一个演示过程，包括分词器的训练、批量数据的loss计算、模型的预训练过程。
+        </p>
+        <p>2024年6月6日</p>
+      </div>
+      <div class="post-right">
+        <img src="posts/articles/images/trained_result.png" alt="transformer" width="250" height="200" />
+      </div>
+    </div>     
+    <div class="post">
+      <div class="post-left">
+        <h2>
+          <a href="posts/articles/2024-05-02_LLM_Essentials02-3.html">大模型技术精要（三）：实现一个大语言模型</a>
+        </h2>
+        <p>
+          本文设计并实现一个自研大语言模型。详细讲解每一个模块的代码实现。
+        </p>
+        <p>2024年5月2日</p>
+      </div>
+      <div class="post-right">
+        <img src="posts/articles/images/pumo_LLM.png" alt="transformer" width="250" height="200" />
+      </div>
+    </div> 
+    <div class="post">
+      <div class="post-left">
+        <h2>
+          <a href="posts/articles/2023-12-06_LLM_Essentials02-1.html">大模型技术精要（二）：Transformer</a>
+        </h2>
+        <p>
+          Transformer是一种深度学习模型架构，完全摒弃了传统的循环神经网络（RNN）和卷积神经网络（CNN），转而依赖于一种名为“自注意力机制”（self-attention
+          mechanism）的技术。自注意力机制允许模型在处理序列数据时，能够直接访问序列中的所有元素，从而有效捕捉长距离依赖关系。本文详细描述其原理，并对其关键部分予以实现。
+        </p>
+        <p>Transformer的主要特征：
+          <li>高效性：由于其并行化的特性，相较于RNN，Transformer能够更快速地进行训练。</li>
+          <li>长距离依赖捕捉能力：自注意力机制使得模型能够有效地捕捉输入序列中的长距离依赖关系，这对于理解句子结构非常关键。</li>
+          <li>灵活性与可扩展性：Transformer不仅在NLP领域取得了巨大成功，在图像生成、音乐合成等领域也展现出了巨大的潜力。</li>
+          <li>预训练模型的基础：基于Transformer架构的预训练模型（如BERT、GPT系列等）极大地推动了NLP任务的发展，包括文本分类、问答系统、机器翻译等</li>
+        </p>
+        <p>2023年12月6日</p>
+      </div>
+      <div class="post-right">
+        <img src="posts/articles/images/transformer.png" alt="transformer" width="250" height="200" />
+      </div>
+    </div>       
+    <div class="post">
+      <div class="post-left">
+        <h2>
+          <a href="posts/articles/2024-12-17_nvidia-4070tisuper.html">Nvidia GeForce RTX 4070 深度学习开发环境+DeepSeek模型</a>
+        </h2>
+        <p>
+          Nvidia GeForce RTX 4070Ti SUPER
+          凭借其强大的算力和先进的架构，成为深度学习开发的理想硬件选择。在Windows
+          系统下构建基于该显卡的深度学习开发环境，能够深度挖掘它的性能潜力，显著提升深度学习任务的执行速度。本文介绍详细4070Ti
+          SUPER的AI开发环境搭建过程。
+        </p>
+        <p>2024年12月17日</p>
+      </div>
+      <div class="post-right">
+        <img src="posts/articles/images/pytorch-cuda-version.jpg" alt="pytorch-cuda version" />
+      </div>
+    </div>
+
+    <div class="post">
+      <div class="post-left">
+        <h2>
+          <a href="posts/articles/2024-06-28_VSCode_LaTex.html">VS Code使用LaTex</a>
+        </h2>
+        <p>
+          LaTeX 是一种基于 TeX
+          的排版系统，广泛应用于学术、科研、出版等领域，用于高质量的技术文档、书籍、论文等的排版。本文介绍其在VS
+          Code中的集成使用。
+        </p>
+        <p>2024年6月28日</p>
+      </div>
+      <div class="post-right">
+        <img src="posts/articles/images/mirrors-tsinghua.png" alt="mirrors-tsinghua" />
+      </div>
+    </div>
+    <div class="post">
+      <div class="post-left">
+        <h2>
+          <a href="posts/articles/2023-08-01_LLM_Essentials01.html">大模型技术精要（一）：深度学习基础</a>
+        </h2>
+        <p>
+          深度学习作为人工智能领域的关键技术，正深刻改变着众多行业的发展格局。从图像识别到自然语言处理，深度学习模型展现出了强大的能力。本文将带你深入了解深度学习的核心概念、训练与推理过程，并通过具体的
+          Python 代码示例，帮助你快速上手。
+        </p>
+        <p>2023年8月1日</p>
+      </div>
+      <div class="post-right">
+        <img src="posts/articles/images/nerual networks.png" alt="neural networks" />
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div id="essays" class="category hidden">
+    <div class="post">
+      <div class="post-left">
+        <h2>
+          <a href="posts/essays/2025-02-03_essays_02.html">海风与星辰的邂逅——徒步平潭岛记</a>
+        </h2>
+        <p>
+          徒步平潭岛的旅程，如同一场与大海、风车、日落和星辰的浪漫邂逅。从波涛汹涌的仙人井，到热闹温暖的北港文化村；从海岸线的宁静漫步，到北岚岭壮丽的海景；从镜沙的星辰大海，到长江澳的风车田，每一步都充满了感动与惊喜。这场徒步之旅，不仅让我看到了风景，更让我遇见了生活的美好与内心的宁静。
+          平潭岛，这片被海风与星辰眷顾的土地，将永远留在我的记忆中，成为我心中最美的风景。在未来的日子里，我会带着这份感动与宁静，继续前行，去探索更多的未知，去遇见更多的美好。
+        </p>
+        <p>2025年2月3日</p>
+      </div>
+      <div class="post-right">
+        <img src="posts/essays/images/pingtan3.jpg" alt="平潭海上风车" />
+      </div>
+    </div>
+    <div class="post">
+      <div class="post-left">
+        <h2>
+          <a href="posts/essays/2025-01-16_essays_01.html">冬日闲云，逸韵蓝天</a>
+        </h2>
+        <p>
+          在多数人的印象里，冬天总是带着几分萧索与凛冽，可在我心中，冬日的蓝天白云，却别有一番闲淡适意的韵致，宛如一首悠然的诗篇，缓缓流淌在岁月的长河里。清晨，当第一缕阳光穿透薄雾，洒向大地，我总会不由自主地望向天空。那片湛蓝，澄澈而深邃，仿佛是一块被岁月打磨得温润剔透的蓝宝石，镶嵌在天地之间。与夏日的湛蓝相比，冬日的蓝多了几分清冷与宁静，恰似一位遗世独立的佳人，不施粉黛却自有一种超凡脱俗的气质。在这片湛蓝的画布上，云朵悠然地飘浮着，像是被大自然随手点染的几笔淡墨，轻盈而又自在......
+        </p>
+        <p>2025年1月16日</p>
+      </div>
+      <div class="post-right">
+        <img src="posts/essays/images/winter.png" alt="winter" />
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function showCategory(category) {
+      document.querySelectorAll(".category").forEach(function (item) {
+        item.classList.add("hidden");
+      });
+      document.getElementById(category).classList.remove("hidden");
+    }
+
+    window.onload = function () {
+      showCategory("articles");
+    };
+  </script>
+</body>
+
+</html>
